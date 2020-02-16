@@ -1,0 +1,13 @@
+# Don't commit system files or dependencies
+*.DS_Store
+node_modules/
+.env
+yarn.lock
+
+# Don't add personal VS Code settings
+.vscode/
+
+# Ensure Hugo builds aren't committed to Git
+public/
+dist/
+.tmp/
