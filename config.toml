@@ -26,21 +26,19 @@ googleAnalytics = "XXX"
 [Params]
     mainSections = ["post"]
     intro = true
-    headline = "Ghostwriter example"
-    description = "Ghostwriter example description"
-    github = "https://github.com/XXX"
-    gitlab = "https://gitlab.com/XXX"
-    linkedin = "https://linkedin.com/in/XXX/"
-    gplus = "https://google.com/+XXX"
-    twitter = "https://twitter.com/XXX"
-    stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
-    facebook = "https://www.facebook.com/username"
-    email = "XXX@example.com"
+    headline = "Hi, I am Masum."
+    description = "Welcome to my web home. This is where I share my thoughts on code, life and  a little bit of everything. If you are interested in what I do, I  work as a web developer from my home office. When not working, I play with my  little daughter who's growing up too fast :)"
+
+    github = "https://github.com/masummdar"
+    linkedin = "https://linkedin.com/in/masummdar/"
+    twitter = "https://twitter.com/masummdar"
+    facebook = "https://www.facebook.com/masummdar"
+    email = "masummdar@gmail.com"
     opengraph = true
     shareTwitter = true
     shareFacebook = true
-    shareGooglePlus = true
-    shareLinkedIn = false
+    shareGooglePlus = false
+    shareLinkedIn = true
     dateFormat = "Mon, Jan 2, 2006"
     highlightJsUrl = ""
     highlightJsLocalUrl = ""
@@ -48,30 +46,29 @@ googleAnalytics = "XXX"
     exponeaTarget = ""
     exponeaToken = ""
     exponeaTrackVisits = false
-    readingTime = true
+    readingTime = false
     readingTimeText = "Estimated reading time:"
     fathomUrl = ""
     fathomSiteId = ""
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
-
 [[menu.main]]
-    name = "Blog"
+    name = "Home"
     url = "/"
     weight = 1
 
 [[menu.main]]
-    name = "Projects"
-    url = "/project/"
+    name = "Blog"
+    url = "/"
     weight = 2
 
 [[menu.main]]
-    name = "Contact"
-    url = "/page/contact/"
+    name = "About"
+    url = "/about/"
     weight = 3
 
 [[menu.main]]
-    name = "About"
-    url = "/page/about/"
+    name = "Contact"
+    url = "/contact/"
     weight = 4
