@@ -4,10 +4,14 @@ date: 2020-02-17T13:30:18+06:00
 draft: false
 ---
 
-Email : masummdar@gmail.com
+## The best way to contact me is via e-mail:
 
-Skype : masummdar@gmail.com
+masummdar@gmail.com
 
-Twitter : @masummdar
+### You can also find me on these social platforms:
 
-Github : @masummdar
+Github : [@masummdar](https://github.com/masummdar)
+
+Twitter : [@masummdar](https://twitter.com/masummdar)
+
+LinkedIn : [@masummdar](https://www.linkedin.com/in/masummdar)
